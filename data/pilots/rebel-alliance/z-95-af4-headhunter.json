@@ -1,5 +1,7 @@
 {
   "name": "Z-95-AF4 Headhunter",
+  "xws": "z95af4headhunter",
+  "ffg": 38,
   "size": "Small",
   "dial": [
     "1BW",
@@ -21,38 +23,17 @@
   ],
   "faction": "Rebel Alliance",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 2
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 2
-    },
-    {
-      "type": "shields",
-      "value": 2
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 2 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 2 },
+    { "type": "shields", "value": 2 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Lock"
-    },
-    {
-      "difficulty": "Red",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Lock" },
+    { "difficulty": "Red", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_Z-95.png",
   "pilots": [
     {
       "name": "Airen Cracken",
@@ -62,12 +43,11 @@
       "cost": 36,
       "xws": "airencracken",
       "ability": "After you perform an attack, you may choose 1 friendly ship at range 1. That ship may perform an action, treating it as red.",
-      "image": "https://i.imgur.com/7bVSVq4.jpg",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_27.png",
+      "slots": ["Talent", "Missile", "Modification"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_27.jpg",
+      "ffg": 27,
+      "hyperspace": false
     },
     {
       "name": "Bandit Squadron Pilot",
@@ -76,11 +56,11 @@
       "cost": 23,
       "xws": "banditsquadronpilot",
       "text": "The Z-95 Headhunter was the primary inspiration for Incom Corporation's exemplary T-65 X-wing starfighter. Though it is considered outdated by modern standards, it remains a versatile and potent snub fighter.",
-      "image": "https://i.imgur.com/pq9fX05.png",
-      "slots": [
-        "Missile",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_30.png",
+      "slots": ["Missile", "Modification"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_30.jpg",
+      "ffg": 30,
+      "hyperspace": false
     },
     {
       "name": "Lieutenant Blount",
@@ -90,12 +70,11 @@
       "cost": 30,
       "xws": "lieutenantblount",
       "ability": "While you perform a primary attack, if there is at least 1 other friendly ship at range 0-1 of the defender, you may roll 1 additional attack die.",
-      "image": "https://i.imgur.com/Yzh5H1z.jpg",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_28.png",
+      "slots": ["Talent", "Missile", "Modification"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_28.jpg",
+      "ffg": 28,
+      "hyperspace": false
     },
     {
       "name": "Tala Squadron Pilot",
@@ -104,12 +83,11 @@
       "cost": 25,
       "xws": "talasquadronpilot",
       "text": "The AF4 series is the latest in a long line of Headhunter designs. Cheap and relatively durable, it is a favorite among independent outfits like the Rebellion.",
-      "image": "https://i.imgur.com/R6W7mLY.jpg",
-      "slots": [
-        "Talent",
-        "Missile",
-        "Modification"
-      ]
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_29.png",
+      "slots": ["Talent", "Missile", "Modification"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_29.jpg",
+      "ffg": 29,
+      "hyperspace": false
     }
   ]
 }

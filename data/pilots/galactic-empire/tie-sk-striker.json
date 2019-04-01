@@ -1,5 +1,7 @@
 {
   "name": "TIE/sk Striker",
+  "xws": "tieskstriker",
+  "ffg": 16,
   "size": "Small",
   "dial": [
     "1TW",
@@ -21,34 +23,16 @@
   ],
   "faction": "Galactic Empire",
   "stats": [
-    {
-      "arc": "Front Arc",
-      "type": "attack",
-      "value": 3
-    },
-    {
-      "type": "agility",
-      "value": 2
-    },
-    {
-      "type": "hull",
-      "value": 4
-    }
+    { "arc": "Front Arc", "type": "attack", "value": 3 },
+    { "type": "agility", "value": 2 },
+    { "type": "hull", "value": 4 }
   ],
   "actions": [
-    {
-      "difficulty": "White",
-      "type": "Focus"
-    },
-    {
-      "difficulty": "White",
-      "type": "Evade"
-    },
-    {
-      "difficulty": "White",
-      "type": "Barrel Roll"
-    }
+    { "difficulty": "White", "type": "Focus" },
+    { "difficulty": "White", "type": "Evade" },
+    { "difficulty": "White", "type": "Barrel Roll" }
   ],
+  "icon": "https://sb-cdn.fantasyflightgames.com/ship_types/I_TIEStriker.png",
   "pilots": [
     {
       "name": "\"Countdown\"",
@@ -58,17 +42,15 @@
       "cost": 44,
       "xws": "countdown",
       "ability": "While you defend, after the Neutralize Results step, if you are not stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you do, cancel all dice results.",
-      "image": "https://i.imgur.com/kVPdfuW.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_118.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": [
-        "Talent",
-        "Gunner",
-        "Device",
-        "Modification"
-      ]
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_118.jpg",
+      "ffg": 118,
+      "hyperspace": true
     },
     {
       "name": "\"Duchess\"",
@@ -78,17 +60,15 @@
       "cost": 42,
       "xws": "duchess",
       "ability": "You may choose not to use your Adaptive Ailerons. You may use your Adaptive Ailerons even while stressed.",
-      "image": "https://i.imgur.com/x4zm9K5.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_117.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
-        "text": "Before you reveal your dial, if you are not stressed, you must execute a white (1 [Bank Left]), (1 [Straight]), or (1 [Bank Right]) maneuver."
+        "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": [
-        "Talent",
-        "Gunner",
-        "Device",
-        "Modification"
-      ]
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_117.jpg",
+      "ffg": 117,
+      "hyperspace": true
     },
     {
       "name": "\"Pure Sabacc\"",
@@ -98,17 +78,15 @@
       "cost": 44,
       "xws": "puresabacc",
       "ability": "While you perform an attack, if you have 1 or fewer damage cards, you may roll 1 additional attack die.",
-      "image": "https://i.imgur.com/YhDFdGk.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_119.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": [
-        "Talent",
-        "Gunner",
-        "Device",
-        "Modification"
-      ]
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_119.jpg",
+      "ffg": 119,
+      "hyperspace": true
     },
     {
       "name": "Black Squadron Scout",
@@ -117,17 +95,15 @@
       "cost": 38,
       "xws": "blacksquadronscout",
       "text": "These heavily armed atmospheric craft employ their specialized moveable wings to gain additional speed and maneuverability.",
-      "image": "https://i.imgur.com/tibcJCo.jpg",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_120.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": [
-        "Talent",
-        "Gunner",
-        "Device",
-        "Modification"
-      ]
+      "slots": ["Talent", "Device", "Modification", "Gunner"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_120.jpg",
+      "ffg": 120,
+      "hyperspace": true
     },
     {
       "name": "Planetary Sentinel",
@@ -136,16 +112,15 @@
       "cost": 34,
       "xws": "planetarysentinel",
       "text": "To protect its many military installations, the Empire requires a swift and vigilant defense force.",
-      "image": "https://i.imgur.com/SBbPj7y.png",
+      "image": "https://sb-cdn.fantasyflightgames.com/card_images/Card_Pilot_121.png",
       "shipAbility": {
         "name": "Adaptive Ailerons",
         "text": "Before you reveal your dial, if you are not stressed, you must execute a white [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] maneuver."
       },
-      "slots": [
-        "Gunner",
-        "Device",
-        "Modification"
-      ]
+      "slots": ["Device", "Modification", "Gunner"],
+      "artwork": "https://sb-cdn.fantasyflightgames.com/card_art/Card_art_XW_P_121.jpg",
+      "ffg": 121,
+      "hyperspace": true
     }
   ]
 }
